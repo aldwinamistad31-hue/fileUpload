@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #ffffff;
+    background-color: #48026e;
+}
+
+nav {
+    background: #2c3e50;
+    color: #fefefe;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #ebebeb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background: #8e5b28;
+    color: rgb(216, 216, 216);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: rgb(93, 44, 125);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
